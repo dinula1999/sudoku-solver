@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+    background-color: #7952b3;
+}
+  
+h1{
+  font-family: 'Baloo Tammudu 2', cursive;
+  color: white;
+  text-align: center;
+  margin: 20px;
+}
+
+#solve, #clear{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+  margin-left: 5%;
+  padding: 10px;
+  background-color: #232323;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#loading{
+  color:white;
+}
+  
+#table{
+  margin: auto;
+}
+
+#table div{
+  border: none;
+  display: inline-block;
+}
+
+
+input{
+  font-size: 2rem;
+  height: 40px;
+  width: 40px;
+  margin: 1px;
+}
+
+  /* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+@media only screen and (max-width: 800px)  and ( min-width: 510px) {
+  input{
+    font-size: 1.5rem;
+    height: 35px;
+    width: 35px;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  input{
+    font-size: 1.4rem;
+    height: 30px;
+    width: 30px;
+  }
+}
