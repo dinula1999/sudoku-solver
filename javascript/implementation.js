@@ -69,5 +69,4 @@ export default function createGrid(){
 
     document.getElementById('loading').remove();
 
-    console.log(table.children);
 }

@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: #7952b3;
+    background-color: #867ae9;
 }
   
 h1{
@@ -24,11 +24,16 @@ h1{
   margin-bottom: 30px;
   margin-left: 5%;
   padding: 10px;
-  background-color: #232323;
+  background-color: #7757a877;
   color: white;
-  border: none;
+  border: 1px solid #38335f;
   border-radius: 5px;
   cursor: pointer;
+}
+
+#solve:hover, #clear:hover{
+  box-shadow:0px 1px 2px 0px #000;
+  transition: 0.1s;
 }
 
 #loading{
@@ -78,4 +83,11 @@ input[type=number] {
     height: 30px;
     width: 30px;
   }
+}
+
+.footer{
+  font-family: 'Baloo Tammudu 2', cursive;
+  color: white;
+  text-align: center;
+  margin: 20px;
 }

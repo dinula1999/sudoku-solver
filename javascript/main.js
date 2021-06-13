@@ -16,6 +16,12 @@ solveButton.addEventListener("click", () => {
 
     const starterGrid = gridData.create2dMatrix();
 
+    if(gridData.boardIsInvalid(starterGrid)){
+        alert("Board is not valid!");
+        clearBoard();
+        return;
+    }
+
     finishedGrid = solution(starterGrid);
 
     if(typeof(finishedGrid) === "string"){

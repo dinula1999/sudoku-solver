@@ -1,4 +1,4 @@
-export default function solutioin(starterGrid){
+export default function solution(starterGrid){
     
     // Javascript program for above approach
     
@@ -50,7 +50,7 @@ export default function solutioin(starterGrid){
                 
                 /*  assigning the num in the current
                 (row,col)  position of the grid and
-                assuming our assined num in the position
+                assuming our assigned num in the position
                 is correct */
                 grid[row][col] = num;
     
