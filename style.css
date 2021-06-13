@@ -18,11 +18,15 @@ h1{
   margin: 20px;
 }
 
+.buttons{
+  display: flex;
+  justify-content: center;
+}
+
 #solve, #clear{
   font-family: 'Montserrat', sans-serif;
   font-size: 1.3rem;
-  margin-bottom: 30px;
-  margin-left: 5%;
+  margin: 0px 30px 30px 30px;
   padding: 10px;
   background-color: #7757a877;
   color: white;
