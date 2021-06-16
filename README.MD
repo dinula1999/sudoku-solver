@@ -9,6 +9,6 @@ Core part of the algorithm by geeksforgeeks.com algorithm for the problem.
 
 Here are a few screenshots taken and also a gif to represent it’s functionality.
 
-![ReadMe img](https://user-images.githubusercontent.com/57215000/122261413-010d7a00-cef2-11eb-9393-37633badd9e3.png)
+![ReadMe img](https://user-images.githubusercontent.com/57215000/122262098-ade7f700-cef2-11eb-9b1e-fca971ae7b17.png)
 
 If you want to run it manually, you’ll have to spin up a local server and serve the files from the server.
